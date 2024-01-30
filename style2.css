@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: rgb(89, 89, 109);
+}
+
+nav .fa-solid {
+  display: none;
+  
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+nav ul li {
+  display: block;
+  margin: 25px;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+nav ul li a:hover{
+  border-bottom: 3px solid rgb(72, 51, 68);
+  transform: scale(1.2);
+}
+.container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(229, 40, 229);
+}
+p {
+  font-size: 2rem;
+  font-family: Montserrat;
+  color: #00d4ff;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.opt {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  border: 2px solid black;
+}
+.first {
+  
+  height: 350px;
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+}
+.text {
+ 
+  height: 350px;
+  width: 500px;
+  color:white;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+.video {
+  height: 300px;
+  width: 350px;
+}
+.exer {
+  padding-top: 10px;
+  height: 350px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  display: block;
+}
+#checkbtn {
+  font-size: 30px;
+  color: #00d4ff;
+  display: none;
+  margin-right: 10px;
+}
+#check {
+  display: none;
+}
+
+@media (max-width: 890px) {
+  .one-img{
+    height: 100px;
+    width: 50%;
+   }
+  nav .fa-solid {
+    display: block;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+  }
+  nav ul {
+    background: rgba(11, 11, 11, 0.417);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+    font-size: 20px;
+    color: white;
+  }
+  .span {
+    margin-left: 20px;
+    font-size: 20px;
+
+  }
+  nav ul li {
+    display: block;
+    margin: 30px;
+    color: white;
+  }
+
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    color:rgb(236, 115, 251);
+  }
+  #checkbtn {
+    display: block;
+  }
+  .im4 {
+    display: none;
+  }
+
+  .im3 {
+    display: none;
+  }
+
+  .im2 {
+    display: none;
+  }
+
+  .im1 {
+    display: none;
+  }
+  .im {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .video {
+    height: 300px;
+    width: 200px;
+  }
+ .homy{
+    display: none;
+ }
+ .im11{
+  display: none;
+ }
+ .copyright p{
+  
+  font-size: 14px;
+}
+li{
+  font-size: 18px;
+}
+ul{
+  font-size:1px;
+  font-weight: 0;
+ }
+ .te{
+  font-size: 18px;
+ }
+
+}
+
+
+
+.content1{
+  padding: 10px 10%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.first1{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.text1{
+  height: 500px;
+  width:500px;
+  margin-top: 25px;
+  font-family: Montserrat;
+  text-align: center;
+}
+.exer1 {
+  height: 400px ;
+  width:400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+ul{
+ color: rgb(215, 41, 235);
+ font-size: 30px;
+ font-weight: 900;
+ font-family: Montserrat;
+}
+.te{
+  color: rgb(240, 239, 239);
+  font-size: 15px;
+  
+}
+.exer2 {
+  height: 500px ;
+  width:600px;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 20px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+li{
+  color:rgb(246, 243, 243);
+  font-size: 15   px;
+}
+.color{
+  color: rgb(239, 52, 233);
+  font-family: Montserrat; 
+}
+.first4{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+ 
+}
+
+.text4{
+    height: 320px;
+    width: 320px;
+    background-image: url("Screenshot\ 2023-12-17\ 164842.png");
+    background-size: cover;
+    font-family: Montserrat;
+   
+}
+.exer4 {
+  height: 320px ;
+  width:320px;
+  background-image: url("0c720b70c2de52f1591c6f96d5824498.jpg");
+  background-size: cover;
+ 
+}
+.text5{
+  height: 400px;
+  width: 600px;
+  background-image: url("beginners-guide-to-strength-training.jpg");
+  background-size: cover;
+  font-family: Montserrat;
+}
+.first6{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+.content2{
+  height: 500px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+   margin-top: 80px;
+  flex-wrap: wrap;
+}
+.copyright {
+  height: 40px;
+  background: rgb(239, 52, 233);;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+
+} 
+.copyright p i{
+  color: rgb(42, 32, 32);
+}
+.img3{
+  background-image: url(f4a1a663b0e8495109718aab251dbbeb-removebg-removebg-preview.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+.img4{
+  background-image: url("WhatsApp_Image_2024-01-28_at_5.49.28_PM__1_-removebg-preview.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+.img5{
+  background-image: url("WhatsApp_Image_2024-01-29_at_6.15.55_PM-removebg-preview.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+h3{
+    background:linear-gradient(90deg,rgb(67, 240, 237),rgb(117, 98, 240));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;font-size: 20px;
+}
+.content22{
+  height: 100vh;
+  padding: 0px 5%;
+}
+.content12{
+  height: 100vh;
+  padding: 0px 5%;
+}
+.text3{
+  height: 400px;
+  width: 65%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
+  font-family: Montserrat;
+}
+
+.khali{
+  font-family: Montserrat;
+  padding-top: 30px;
+}
+.container2{
+  padding: 10px 10%;
+  color: rgb(242, 0, 255);
+}
+.one-img{
+ height: 300px;
+ width: 500px;
+ background-image: url(big_warm_lemon_water_with_turmeric\,_anti_inflammatory_and_good_for_cold-13175.jpg);
+ background-size: cover;
+
+}
+.one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.two{
+  height: 300px;
+  width: 300px;
+  background-image: url(1663389896038-1.webp);
+  background-size: cover;
+}
+.three{
+  height: 300px;
+  width: 400px;
+  background-image: url(roti3.jpg);
+  background-size: cover;
+}
+.four{
+  height: 300px;
+  width: 300px;
+  background-image: url(coffee-beans_144627-35152.avif);
+  background-size: cover;
+}
+.five{
+  height: 300px;
+  width: 200px;
+  background-image: url(blogexplore.com-sweet-dalia.jpg);
+  background-size: cover;
+}
+.six{
+  height: 300px;
+  width: 300px;
+  background-image: url(sprouts-798x1024.jpg);
+  background-size: cover;
+}
+.seven{
+  height: 300px;
+  width: 300px;
+  background-image: url(soya-chunks-biryani-recipe.jpg);
+  background-size: cover;
+}
+.eight{
+  height: 300px;
+  width: 300px;
+  background-image: url(2260_FT_12ee2674-4d8b-497d-bd45-d8850eb92efe.webp);
+    background-size: cover;
+}
+.nine{
+  height: 300px;
+  width: 300px;
+  background-image: url(oats-chilla.jpg);
+  background-size: cover;
+}
+.red{
+  color: red;
+}
